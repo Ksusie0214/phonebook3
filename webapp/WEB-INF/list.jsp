@@ -47,8 +47,8 @@ for(int i=0; i<personList.size(); i++ ){
 				<a href="/phonebook3/pbc?action=delete&no=
 				<%=personList.get(i).getPersonId()%>">[삭제]</a></td>
 			<td><%=personList.get(i).getPersonId() %>
-				<a href="/phonebook3/pbc?action=uform
-				">[수정]</a></td>
+				<a href="/phonebook3/pbc?action=uform&no=
+				<%=personList.get(i).getPersonId()%>&name=<%=personList.get(i).getName()%>&hp=<%=personList.get(i).getHp()%>&company=<%=personList.get(i).getCompany()%>">[수정]</a></td>
 		</tr>
 	</table>
 	
